@@ -3,8 +3,8 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg git \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* \
-    && mkdir YukkiMusicBot \
-    && cd YukkiMusicBot \
+    && mkdir YukkiMusic \
+    && cd YukkiMusic \
     && git clone https://github.com/Aryasena7/YukkiMusic
 WORKDIR /YukkiMusic/YukkiMusic
 RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
