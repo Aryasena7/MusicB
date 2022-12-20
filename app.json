@@ -35,11 +35,6 @@
       "value": "60",
       "required": true
     },
-    "ASSISTANT_PREFIX": {
-      "description": "Prefix for Assistant Commands.",
-      "value": ".",
-      "required": true
-    },
     "MONGO_DB_URI": {
       "description": "Mongo DB URL",
       "value": "",
@@ -66,6 +61,26 @@
       "required": true
     },
     "STRING_SESSION": {
+      "description": "A Pyrogram String Session.",
+      "value": "",
+      "required": true
+    },
+    "STRING_SESSION2": {
+      "description": "A Pyrogram String Session.",
+      "value": "",
+      "required": true
+    },
+    "STRING_SESSION3": {
+      "description": "A Pyrogram String Session.",
+      "value": "",
+      "required": true
+    },
+    "STRING_SESSION4": {
+      "description": "A Pyrogram String Session.",
+      "value": "",
+      "required": true
+    },
+    "STRING_SESSION5": {
       "description": "A Pyrogram String Session.",
       "value": "",
       "required": true
